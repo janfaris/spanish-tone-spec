@@ -1,0 +1,48 @@
+{
+  "name": "spanish-tone-spec",
+  "version": "0.1.0",
+  "description": "Prompt-side Spanish locale tone control for LLM output. No post-hoc regex.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "keywords": [
+    "llm",
+    "spanish",
+    "es-pr",
+    "puerto-rico",
+    "prompt-engineering",
+    "tone",
+    "localization",
+    "i18n",
+    "openai",
+    "anthropic",
+    "claude",
+    "gpt"
+  ],
+  "author": "Jan Faris <jankarlo.faris@outlook.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/janfaris/spanish-tone-spec"
+  },
+  "homepage": "https://github.com/janfaris/spanish-tone-spec#readme",
+  "bugs": {
+    "url": "https://github.com/janfaris/spanish-tone-spec/issues"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test src/*.test.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.4.0"
+  }
+}
