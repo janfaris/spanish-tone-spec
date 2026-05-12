@@ -8,9 +8,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Considering
-- `es-CO` (Colombia) locale support — see [#2](https://github.com/janfaris/spanish-tone-spec/issues/2)
-- LangChain + Mastra adapters — see [#3](https://github.com/janfaris/spanish-tone-spec/issues/3)
-- Embedding-based corpus similarity (replacing token Jaccard) — see [#4](https://github.com/janfaris/spanish-tone-spec/issues/4)
+- `es-CO` (Colombia) locale support — see [#1](https://github.com/janfaris/spanish-tone-spec/issues/1)
+- LangChain + Mastra adapters — see [#2](https://github.com/janfaris/spanish-tone-spec/issues/2)
+- Embedding-based corpus similarity (replacing token Jaccard) — see [#3](https://github.com/janfaris/spanish-tone-spec/issues/3)
 
 ## [0.1.0] - 2026-05-12
 
